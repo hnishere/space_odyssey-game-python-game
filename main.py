@@ -187,7 +187,7 @@ while running:
     pygame.display.update()
 
 #sql connection
-starkind=SQLtor.connect(host="localhost",user="root",passwd="harish2006",database="harish")
+starkind=SQLtor.connect(host="localhost",user="root",passwd="<password>",database="<database>")
 if starkind.is_connected():
     print("connected")
 cursor=starkind.cursor()
